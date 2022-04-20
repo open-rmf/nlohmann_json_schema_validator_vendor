@@ -5,7 +5,8 @@
   <version>0.1.0</version>
   <description>A vendor package for JSON schema validator for JSON for Modern C++</description>
   <maintainer email="grey@openrobotics.org">Grey</maintainer>
-  <license>Apache License 2.0</license>
+  <license>Apache License 2.0</license> <!-- the contents of this package are Apache 2.0 -->
+  <license>MIT License</license> <!-- nlohmann json schema validator is MIT License -->
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
