@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 project(nlohmann_json_schema_validator_vendor)
 
 find_package(ament_cmake REQUIRED)
+find_package(ament_cmake_libraries REQUIRED)
 
 option(FORCE_BUILD_VENDOR_PKG
   "Build nlohmann_json_schema_validator from source, even if system-install package is available"
