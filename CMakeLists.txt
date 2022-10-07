@@ -72,9 +72,9 @@ macro(build_nlohmann_json_schema_validator)
     ${cmake_commands}
     CMAKE_ARGS
       -DCMAKE_INSTALL_PREFIX=${json_external_project_dir}/install/
-	  -DBUILD_TESTS:BOOL=OFF
-	  -DBUILD_EXAMPLES:BOOL=OFF
-      -DBUILD_SHARED_LIBS:BOOL=true
+      -DBUILD_SHARED_LIBS:BOOL=ON
+      -DJSON_VALIDATOR_BUILD_TESTS:BOOL=OFF
+      -DJSON_VALIDATOR_BUILD_EXAMPLES:BOOL=OFF
       ${cmake_configure_args}
   )
 
