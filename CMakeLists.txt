@@ -60,7 +60,6 @@ macro(build_nlohmann_json_schema_validator)
   include(ExternalProject)
   set(nlohmann_json_schema_validator_version "main")
   externalproject_add(nlohmann_json_schema_validator-${nlohmann_json_schema_validator_version}
-    PREFIX ${json_external_project_dir}
     GIT_REPOSITORY https://github.com/pboettch/json-schema-validator.git
     GIT_TAG ${nlohmann_json_schema_validator_version}
     GIT_CONFIG advice.detachedHead=false
@@ -77,7 +76,6 @@ macro(build_nlohmann_json_schema_validator)
 	  -DBUILD_EXAMPLES:BOOL=OFF
       -DBUILD_SHARED_LIBS:BOOL=true
       ${cmake_configure_args}
-    INSTALL_DIR ${json_external_project_dir}/install/
   )
 
   # The external project will install to the build folder, but we'll install that on make install.
