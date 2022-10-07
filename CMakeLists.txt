@@ -70,7 +70,6 @@ macro(build_nlohmann_json_schema_validator)
         ${CMAKE_CURRENT_SOURCE_DIR}/patchcmake.patch
     TIMEOUT 6000
     ${cmake_commands}
-    BUILD_ALWAYS ON
     CMAKE_ARGS
       -DCMAKE_INSTALL_PREFIX=${json_external_project_dir}/install/
 	  -DBUILD_TESTS:BOOL=OFF
