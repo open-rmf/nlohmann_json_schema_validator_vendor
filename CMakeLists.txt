@@ -66,8 +66,6 @@ macro(build_nlohmann_json_schema_validator)
     GIT_CONFIG advice.detachedHead=false
     # Suppress git update due to https://gitlab.kitware.com/cmake/cmake/-/issues/16419
     UPDATE_COMMAND ""
-    PATCH_COMMAND ${CMAKE_COMMAND} -E chdir <SOURCE_DIR> git apply -p1 --ignore-space-change --whitespace=nowarn
-        ${CMAKE_CURRENT_SOURCE_DIR}/patchcmake.patch
     TIMEOUT 6000
     ${cmake_commands}
     CMAKE_ARGS
