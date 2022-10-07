@@ -10,6 +10,7 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>ament_cmake_libraries</buildtool_depend>
+  <buildtool_depend>git</buildtool_depend>
 
   <depend>nlohmann-json-dev</depend>
 
