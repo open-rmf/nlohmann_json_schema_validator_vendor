@@ -2,8 +2,8 @@
 Changelog for package nlohmann_json_schema_validator_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.5 (2023-06-01)
+------------------
 * Switch CHANGELOG to rst format.
 * Contributors: Yadunund
 
