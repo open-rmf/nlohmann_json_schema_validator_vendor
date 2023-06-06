@@ -2,8 +2,8 @@
 Changelog for package nlohmann_json_schema_validator_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.0 (2023-06-06)
+------------------
 * Switch to rst changelogs
 * Contributors: Yadunund
 
