@@ -57,6 +57,7 @@ macro(build_nlohmann_json_schema_validator)
   endif()
   set(json_external_project_dir ${CMAKE_CURRENT_BINARY_DIR}/json_external_project)
   include(ExternalProject)
+  # clone v2.4.0
   set(nlohmann_json_schema_validator_version c780404a84dd9ba978ba26bc58d17cb43fa7bc80)
   externalproject_add(nlohmann_json_schema_validator-${nlohmann_json_schema_validator_version}
     GIT_REPOSITORY https://github.com/pboettch/json-schema-validator.git
