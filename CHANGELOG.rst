@@ -2,6 +2,12 @@
 Changelog for package nlohmann_json_schema_validator_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* feat: update to 2.4.0 (`#22 <https://github.com/open-rmf/nlohmann_json_schema_validator_vendor/issues/22>`_)
+* Add triage github action (`#20 <https://github.com/open-rmf/nlohmann_json_schema_validator_vendor/issues/20>`_)
+* Contributors: Luca Della Vedova, Russ
+
 0.6.0 (2025-06-09)
 ------------------
 
